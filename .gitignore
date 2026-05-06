@@ -76,8 +76,9 @@ logs/
 *.log
 *.log.*
 
-# Eval artifacts
-eval_results/
+# Eval artifacts - ignore everything except golden_cases
+eval_results/*
+!eval_results/golden_cases/
 
 # Sandbox - 任务产出（按任务 ID 隔离）
 sandbox/
